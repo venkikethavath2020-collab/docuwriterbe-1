@@ -97,7 +97,7 @@ export const config = {
   email: {
     resendApiKey: process.env.RESEND_API_KEY || '',
     // Must be a verified sender on Resend, otherwise sends will fail.
-    from: process.env.EMAIL_FROM || 'DocGen <noreply@docgen.in>',
+    from: process.env.EMAIL_FROM || 'DocGen <docgensupport@gmail.com>',
   },
   googleAuth: {
     // Master kill-switch. When false, /auth/google + /auth/config gate the
@@ -123,7 +123,7 @@ export const config = {
     state: process.env.SELLER_STATE || 'Telangana',
     country: process.env.SELLER_COUNTRY || 'India',
     pincode: process.env.SELLER_PINCODE || '',
-    email: process.env.SELLER_EMAIL || 'billing@docgen.in',
+    email: process.env.SELLER_EMAIL || 'docgensupport@gmail.com',
     phone: process.env.SELLER_PHONE || '',
     website: process.env.SELLER_WEBSITE || 'docgen.in',
     pan: process.env.SELLER_PAN || '', // e.g. AAAPL1234C
